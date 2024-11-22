@@ -19,8 +19,23 @@ body {
 }
 
 .header {
+    align-items: center;
     background-color: var(--colour-tertiary);
-    padding: var(--spacing-large)
+    padding: var(--spacing-large);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header__logo {
+    flex: 0 0 150px;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.header__logo img {
+    height: 100%;
+    width: 100%;
 }
 
 .header__page-title {
