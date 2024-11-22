@@ -40,7 +40,7 @@ body {
 
 .header__page-title {
     color: var(--colour-main);
-    font-size: 4rem;
+    font-size: 2rem;
     margin: 0;
     text-align: center;
 }
@@ -90,3 +90,8 @@ body {
     padding: 8px;
 }
 
+@media screen and (min-width: 768px) {
+    .header__page-title {
+        font-size: 4rem;
+    }
+}
